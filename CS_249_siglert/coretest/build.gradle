@@ -1,0 +1,19 @@
+plugins {   
+    id 'java-library'
+    id 'java-test-fixtures' 
+}
+
+version = '1.0' 
+
+repositories {  
+    mavenCentral()    
+}
+
+dependencies {
+    testImplementation 'org.testng:testng:7.11.0'
+    testRuntimeOnly 'org.slf4j:slf4j-simple:2.0.13'
+}
+
+test {
+    useTestNG()
+}
