@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<component inherit-compiler-output="true" inheritJdk="true">
-	<exclude-output/>
-	<contentEntry url="file://$MODULE_DIR$/../../../profexercises">
-		<excludeFolder url="file://$MODULE_DIR$/../../../profexercises/.gradle"/>
-		<excludeFolder url="file://$MODULE_DIR$/../../../profexercises/build"/>
-	</contentEntry>
-</component>
