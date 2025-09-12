@@ -1,3 +1,3 @@
 module profexercisesmod {
-    exports edu.realemj.exercises.nothing;
+    exports edu.siglert.exercises.nothing;
 }
