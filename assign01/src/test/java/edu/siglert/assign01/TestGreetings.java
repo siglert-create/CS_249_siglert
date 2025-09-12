@@ -1,4 +1,4 @@
-package edu.realemj.assign01;
+package edu.siglert.assign01;
 
 import edu.realemj.testing.*;
 import org.testng.Assert;
