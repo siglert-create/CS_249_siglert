@@ -1,7 +1,7 @@
 package edu.siglert.assign02;
 
 public class SpaceVessel {
-    private String vesselName;
+    private String vesselName ="";
     private int length;
     private int weight;
     public String getName(){
@@ -37,6 +37,6 @@ public class SpaceVessel {
         return weight + " lbs. (" + String.format("%.2f", kilograms) + " kg)";
     }
     public String toString(){
-        return "NAME"+vesselName+"\n" + "LENGTH"+ length+"\n"+"WEIGHT" +weight+"\n";
+        return "NAME: "+vesselName+"\n" + "LENGTH: "+ getLengthString()+"\n"+"WEIGHT: " +getWeightString()+"\n";
     }
 }
