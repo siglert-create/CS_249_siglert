@@ -7,7 +7,7 @@ public class Hallmark {
         System.out.println("Enter boundary character:");
         String boundChar = input.nextLine();
         char boundary = boundChar.charAt(0);
-        System.out.println( "Enter number of lines:");
+        System.out.println("Enter number of lines:");
         String numLine = input.nextLine();
         int num = Integer.parseInt(numLine);
         String[] allLines =new String[num];
