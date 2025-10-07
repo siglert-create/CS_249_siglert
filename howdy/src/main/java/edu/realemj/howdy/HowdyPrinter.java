@@ -13,10 +13,12 @@ public class HowdyPrinter {
         System.out.println("*********************");
         System.out.println("Why are you still here?");
         System.out.println("GO HOME");
+        System.out.println("...");
 
     }
 
     public static String getPassword() {
-        return "12345";
+
+        return "123456";
     }
 }
