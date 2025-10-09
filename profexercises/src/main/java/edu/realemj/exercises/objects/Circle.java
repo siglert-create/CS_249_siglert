@@ -37,11 +37,21 @@ public class Circle {
         return new Matrix(pos);
     }
 
-    public void setRadius(double r) {
-        radius = r;
+    public void setRadius(double radius) {
+        if(checkValidRadius(radius)) {
+            this.radius = radius;
+        }
     }
 
     public void setPos(Matrix p) {
         pos = new Matrix(p);
     }
+
+    public static boolean checkValidRadius(double r) {
+        return (r >= 0);
+    }
+}
+
+class AuxExtraCircleClass {
+
 }

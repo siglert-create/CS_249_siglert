@@ -4,25 +4,29 @@ public class Matrix {
     private double [][] m;
 
     public Matrix(Matrix other) {
+        // GONNA CALL ANOTHER CONSTRUCTOR
+        this(other.m);
+        /*
         m = new double[other.getRowCnt()][other.getColCnt()];
         for(int i = 0; i < m.length; i++) {
             for(int j = 0; j < m[i].length; j++) {
                 m[i][j] = other.m[i][j];
+            }
+        }*/
+    }
+
+    public Matrix(double [][] data) {
+        //m = new double[data.length][data[0].length];
+        this(data.length, data[0].length);
+        for(int i = 0; i < m.length; i++) {
+            for(int j = 0; j < m[i].length; j++) {
+                m[i][j] = data[i][j];
             }
         }
     }
 
     public Matrix(int rowCnt, int colCnt) {
         m = new double[rowCnt][colCnt];
-    }
-
-    public Matrix(double [][] data) {
-        m = new double[data.length][data[0].length];
-        for(int i = 0; i < m.length; i++) {
-            for(int j = 0; j < m[i].length; j++) {
-                m[i][j] = data[i][j];
-            }
-        }
     }
 
     public String toString() {
