@@ -51,7 +51,8 @@ public class Circle {
         return (r >= 0);
     }
 }
-
+/*
 class AuxExtraCircleClass {
 
 }
+*/
