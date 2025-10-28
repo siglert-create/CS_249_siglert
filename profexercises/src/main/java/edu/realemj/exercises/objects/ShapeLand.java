@@ -31,5 +31,17 @@ public class ShapeLand {
 
         Matrix m = new Matrix(Matrix.make2DPoint(5,7));
         System.out.println(m);
+
+        /*
+        Circle c4 = new Circle(5.0);
+        Circle c5 = new Circle(5.0);
+        System.out.println("Equal? " + c4.equals(c5));
+
+        switch(c4) {
+            case null -> System.out.println("NULL");
+            case new Circle(5.0) -> System.out.println("EQUAL");
+            default -> System.out.println("NOT EQUAL");
+        }
+         */
     }
 }

@@ -50,6 +50,14 @@ public class Circle {
     public static boolean checkValidRadius(double r) {
         return (r >= 0);
     }
+
+    public boolean equals(Object other) {
+        if(other instanceof Circle co) {
+            double diff = Math.abs(this.radius - co.radius);
+            return (diff <= 1e-6);
+        }
+        return false;
+    }
 }
 /*
 class AuxExtraCircleClass {

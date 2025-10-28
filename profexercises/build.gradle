@@ -18,7 +18,7 @@ test {
 }
 
 application {
-    mainClass = "edu.realemj.exercises.objects.ShapeLand"
+    mainClass = "edu.realemj.exercises.inheritance.SuperShapeLand"
     mainModule = "profexercisesmod"
 }
 
