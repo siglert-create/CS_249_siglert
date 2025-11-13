@@ -126,4 +126,32 @@ public class Matrix {
             System.err.println("WARNING: Out of bounds!");
         }
     }
+
+    @Override
+    public boolean equals(Object other) {
+        boolean isEqual = false;
+
+        if(other instanceof Matrix mother) {
+            if(mother.getRowCnt() == this.getRowCnt() &&
+                mother.getColCnt() == this.getColCnt()) {
+
+                boolean dataEqual = true;
+                for(int r = 0; r < this.getRowCnt(); r++) {
+                    for(int c = 0; c < this.getColCnt(); c++) {
+                        if(!Utility.equals(m[r][c], mother.m[r][c])) {
+                            dataEqual = false;
+                            break;
+                        }
+                    }
+                    if(!dataEqual) {
+                        break;
+                    }
+                }
+
+                isEqual = dataEqual;
+            }
+        }
+
+        return isEqual;
+    }
 }
