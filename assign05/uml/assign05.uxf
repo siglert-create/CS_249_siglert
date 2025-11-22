@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>290</x>
-      <y>0</y>
+      <x>210</x>
+      <y>100</y>
       <w>210</w>
       <h>120</h>
     </coordinates>
@@ -15,15 +15,15 @@
 --
 +Giant(name: String)
 +getName(): String
-+setName(name: String)
++setName(name: String):void
 +toString(): String</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>220</y>
+      <x>320</x>
+      <y>320</y>
       <w>210</w>
       <h>90</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>430</y>
+      <x>470</x>
+      <y>530</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
@@ -52,8 +52,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>430</y>
+      <x>220</x>
+      <y>530</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
@@ -67,8 +67,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>300</y>
+      <x>320</x>
+      <y>400</y>
       <w>80</w>
       <h>150</h>
     </coordinates>
@@ -78,8 +78,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>160</x>
-      <y>220</y>
+      <x>80</x>
+      <y>320</y>
       <w>210</w>
       <h>90</h>
     </coordinates>
@@ -93,8 +93,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>300</y>
+      <x>460</x>
+      <y>400</y>
       <w>130</w>
       <h>150</h>
     </coordinates>
@@ -104,8 +104,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>110</y>
+      <x>180</x>
+      <y>210</y>
       <w>110</w>
       <h>130</h>
     </coordinates>
@@ -115,8 +115,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>420</x>
-      <y>110</y>
+      <x>340</x>
+      <y>210</y>
       <w>80</w>
       <h>130</h>
     </coordinates>
