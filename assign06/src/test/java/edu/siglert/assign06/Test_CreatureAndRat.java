@@ -1,5 +1,6 @@
-package edu.realemj.assign06;
-import edu.realemj.assign04.GameBoard;
+package edu.siglert.assign06;
+import edu.siglert.assign04.GameBoard;
+
 //NOTE: CHANGE realemj to YOUR SITNETID!!!
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -96,7 +97,7 @@ public class Test_CreatureAndRat {
         Creature m = new Rat();
 
         // Create GameBoard
-        GameBoard map = new GameBoard(10, 20, '.');
+        edu.siglert.assign04.GameBoard map = new edu.siglert.assign04.GameBoard(10, 20, '.');
 
         // Draw orc a couple of times...
         // 1st draw
