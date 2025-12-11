@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public abstract class Creature implements Loadable, Drawable {
     protected int row =0;
-    private int col =0;
+    protected int col =0;
     protected Creature(){}
     protected Creature(int row, int col){
         this.row=row;
